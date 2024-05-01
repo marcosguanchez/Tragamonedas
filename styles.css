@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+body{
+ font-family: "Pacifico";
+ margin: auto;
+ background: #673AB7;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ overflow: hidden;
+}
+
+img{
+	max-width: 100%;
+	vertical-align: top;
+}
+
+#tirar{
+	width: 180px;
+	height: 130px;
+	background-color: antiquewhite;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	user-select: none;
+	-moz-user-select: none;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 30px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) inset;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) inset;
+	transition: 300ms;
+}
+
+#tirar:hover{
+	background-color: rgb(12, 147, 44);
+	border-radius: 0;
+	color: rgb(232, 232, 232);
+}
+
+header{
+	position: relative;
+	height: 195px;
+}
+
+#ventanas{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.ventana{
+	width: 300px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	background-color: aliceblue;
+}
+
+.imagen{
+	border:3px solid  black;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+#velo h1{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 35px;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	position: absolute;
+	user-select: none;
+	border: 5px solid black;
+	text-align: center;
+	border-radius: 50%;
+	padding: 3px;
+
+}
+
+#velo{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	background-color: rgba(204, 204, 204, 0.52);
+	width: 100%;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+#cuadro-mensaje{
+	border: 5px solid crimson;
+	width: 500px;
+	border-radius: 12px;
+	position: relative;
+	height: 100px;
+	background-color: aliceblue;
+}
+
+#mensaje{
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fondo{
+	color: #47229e61;
+	font-family:  "Montserrat", sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 165px;
+
+}
